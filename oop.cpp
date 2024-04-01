@@ -1,23 +1,23 @@
 #include <iostream>
 
-class Human{
-    public:
-        std::string name = "Rick";
-        std::string occupation = "scientist";
-        int age = 70;
+// class Human{
+//     public:
+//         std::string name = "Rick";
+//         std::string occupation = "scientist";
+//         int age = 70;
 
-        void eat(){
-            std::cout << "This person is eating\n";
-        }
-        void drink(){
-            std::cout << "This person is drinking\n";
-        }
-        void sleep(){
-            std::cout << "This person is sleeping\n";
-        }
-};
+//         void eat(){
+//             std::cout << "This person is eating\n";
+//         }
+//         void drink(){
+//             std::cout << "This person is drinking\n";
+//         }
+//         void sleep(){
+//             std::cout << "This person is sleeping\n";
+//         }
+// };
 
-/* class Car{
+class Car{
     public:
         std::string make;
         std::string model;
@@ -30,7 +30,7 @@ class Human{
         void brake(){
             std::cout << "You step on the brakes!\n";
         }
-}; */
+};
 
 int main() {
 
